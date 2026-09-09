@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MARD</title>
+<meta name="description" content="A small arcade.">
+<meta name="color-scheme" content="dark">
+<link rel="stylesheet" href="assets/mard.css">
+<script src="assets/config.js"></script>
+<script src="assets/theme.js"></script>
+</head>
+<body>
+
+<header class="marquee">
+  <div>
+    <div class="wordmark" id="site-name">MARD</div>
+    <div class="tagline" id="tagline"></div>
+  </div>
+
+  <div class="marquee-spacer"></div>
+
+  <div class="searchbox">
+    <label for="search" class="visually-hidden" style="position:absolute;left:-9999px">Search games</label>
+    <input id="search" type="search" placeholder="Search games, tags, categories" autocomplete="off">
+    <span class="hint">/</span>
+  </div>
+</header>
+
+<div class="shell">
+  <nav class="rail" id="rail" aria-label="Categories"></nav>
+  <main class="floor" id="floor"></main>
+</div>
+
+<script src="assets/games.js"></script>
+<script src="assets/app.js"></script>
+</body>
+</html>
