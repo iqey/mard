@@ -21,7 +21,7 @@ const CONFIG = {
   formMode: "github",
 
   // Needed for formMode "github". Your repo must be public with Issues on.
-  githubUser: "YOUR-GITHUB-USERNAME",
+  githubUser: "iqey",
   githubRepo: "mard",
 
   // Needed for formMode "webhook".
